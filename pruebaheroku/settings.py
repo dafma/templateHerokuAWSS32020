@@ -150,9 +150,9 @@ EMAIL_HOST_PASSWORD = '*********'
 AWS_ACCESS_KEY_ID = 'AKIAV77SIKONGM6EO5NI'
 AWS_SECRET_ACCESS_KEY = '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'
 AWS_STORAGE_BUCKET_NAME = 'prueba-template-bucket'
+
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
-
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
