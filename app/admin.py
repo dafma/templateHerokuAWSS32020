@@ -3,6 +3,6 @@ from .models import Perfil
 
 # Register your models here.
 
-@admin.register()
+@admin.register(Perfil)
 class PerfilAdmin(admin.ModelAdmin):
     pass    
